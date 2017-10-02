@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.b151_9e.mypasswordapplication.PassWordActivity">
+
+    <TextView
+        android:id="@+id/userNameID"
+        android:layout_width="135dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="49dp"
+        android:text="Ken L"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/userName1ID"
+        app:layout_constraintRight_toLeftOf="@+id/passwordID"
+        android:layout_marginRight="23dp" />
+
+    <EditText
+        android:id="@+id/passWord1ID"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userName1ID"
+        android:layout_width="135dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="86dp"
+        android:text="Ken L"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/passWord1ID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordID"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@+id/passWord1ID"
+        android:layout_marginRight="35dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/messageID"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="52dp"
+        android:text="Hay"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userNameID" />
+
+    <Button
+        android:id="@+id/LoginButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="122dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/Login"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageID" />
+
+</android.support.constraint.ConstraintLayout>

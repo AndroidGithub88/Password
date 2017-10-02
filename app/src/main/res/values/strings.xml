@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Password Application</string>
+    <string name="Login">Login</string>
+    <string name="EnterPassword"></string>
+</resources>
